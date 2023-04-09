@@ -1,0 +1,20 @@
+{{ if .Programing }}
+<div class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">{{ i18n "programing" }}</h2>
+    </div>
+    <div class="sideSection__content">
+        <ul class="programing__group">
+            {{ range .Programing }}
+                <li>
+                    <span class="programing__group_item_name">{{ .Name | safeHTML }}</span>
+                    {{ if .Icon }}
+                    <i class="{{ .Icon }}"></i>
+                    {{ end }}
+                    <progress max="10" value="{{ .Mastery }}"></progress>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}

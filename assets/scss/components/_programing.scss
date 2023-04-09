@@ -1,0 +1,25 @@
+.programing {
+    &__group {
+        margin-bottom: 0.8rem;
+
+        & li{
+            display: block;
+            font-size: 105%;
+            font-weight: 400;
+            transition: all 0.2s ease-in-out;
+            padding: 0 1px;
+            border-radius: 2px;
+            
+            
+            
+            & progress {
+                width: 100%;
+            }
+        }
+    }
+    
+    &__group_item_name:hover {
+      background-color: $color-primary;
+      color: $color-light;
+    }
+}
