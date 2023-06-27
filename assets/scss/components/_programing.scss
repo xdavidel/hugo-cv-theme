@@ -9,15 +9,21 @@
             transition: all 0.2s ease-in-out;
             padding: 0 1px;
             border-radius: 2px;
-            
-            
-            
+
             & progress {
                 width: 100%;
+                background: $color-primary;
+            }
+
+            & progress::-moz-progress-bar {
+                background: $color-primary;
+            }
+            & progress::-webkit-progress-value {
+                background: $color-primary;
             }
         }
     }
-    
+
     &__group_item_name:hover {
       background-color: $color-primary;
       color: $color-light;
