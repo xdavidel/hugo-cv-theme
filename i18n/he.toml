@@ -1,0 +1,26 @@
+[profile]
+other = "פרופיל"
+
+[experience]
+other = "ניסיון תעסוקתי"
+
+[education]
+other = "השכלה"
+
+[references]
+other = "סימוכין"
+
+[programing]
+other = "תכנות"
+
+[skills]
+other = "כישורים"
+
+[languages]
+other = "שפות"
+
+[diplomas]
+other = "תעודות"
+
+[interests]
+other = "תחומי עניין"
