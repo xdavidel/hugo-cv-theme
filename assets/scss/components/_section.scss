@@ -12,7 +12,8 @@
 
         &::after {
             content: '';
-            position: absolute;
+            position: relative;
+            display: table-cell;
             border-top: 1px solid;
             border-bottom: 1px solid;
             border-color: $color-secondary;

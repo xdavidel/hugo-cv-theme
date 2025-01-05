@@ -36,6 +36,7 @@
     &__swapped {
         &__left {
             float: right;
+            direction: rtl;
         }
 
         &__right {
